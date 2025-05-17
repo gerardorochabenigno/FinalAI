@@ -1,0 +1,18 @@
+
+aws:
+  profile: "datascientist"
+  region: "us-east-1"
+  s3_bucket: "itam-analytics-grb"
+  s3_input_prefix: "input/"
+  s3_output_prefix: "output/"
+
+openai:
+  api_key: "sk-..."  # ⚠️ Puedes omitirlo aquí si usas variables de entorno
+
+ocr:
+  language: "spa"
+  min_chunk_length: 100
+
+app:
+  chroma_path: "chroma_data"
+  collection_name: "normatividad"

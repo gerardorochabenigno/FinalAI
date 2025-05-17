@@ -1,2 +1,4 @@
 normatividad_completo/
 normatividad_compilado/
+config/credentials.yaml
+*.DS_Store
