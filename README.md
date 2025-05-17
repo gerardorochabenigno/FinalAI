@@ -2,18 +2,18 @@
 
 # 📄 Digitalizador y Analizador de Documentos
 
-Este proyecto implementa un sistema inteligente para automatizar la atención a solicitudes de transparencia. A partir de una imagen (foto, screenshot o escaneo) de una solicitud, el sistema:
+Este proyecto implementa un sistema inteligente para automatizar la atención a solicitudes de transparencia y de compliance. A partir de una imagen (foto, screenshot o escaneo) de una solicitud, el sistema:
 
 1. Aplica OCR avanzado para extraer el texto.
 2. Busca fragmentos normativos relevantes en una base vectorial (ChromaDB).
 3. Genera una respuesta con lenguaje natural mediante un modelo LLM (GPT-4).
-4. Exporta la respuesta en formatos estructurados: JSON y PDF.
+4. Exporta la respuesta en un chatbot y da la posibilidad de exportar la respuesta en formatos estructurados: JSON y PDF.
 
 ---
 
 ## 🚀 Casos de uso
 
-- Simula el trabajo de una **ventanilla de transparencia**.
+- Simula el trabajo de una **ventanilla de transparencia** y de un **equipo de compliance**.
 - Atiende solicitudes ciudadanas o institucionales.
 - Revisa si ciertas prácticas cumplen o no con la normatividad vigente.
 - Aplica OCR sobre fotos de correos, capturas de pantalla o documentos físicos.
