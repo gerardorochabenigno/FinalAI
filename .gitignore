@@ -1,4 +1,5 @@
 normatividad_completo/
 normatividad_compilado/
-config/credentials.yaml
+config/config.yaml
 *.DS_Store
+chroma_data/
