@@ -83,6 +83,5 @@ streamlit run app.py
 
 
 ## Documentación
-La documentación de las funciones creadas y almacenadas en la carpeta `source` para este proyecto se genera automáticamente utilizando `pdoc` y se encuentra en la carpeta `docs_html`. Para abrir la documentación en tu navegador, da clic aquí: [Documentación del proyecto](docs_html/index.html)
+La documentación de las funciones creadas y almacenadas en la carpeta `source` para este proyecto se genera automáticamente utilizando `pdoc` y se encuentra en la carpeta `docs_html`. Para abrir la documentación en tu navegador, da clic aquí: [Documentación del proyecto](https://gerardorochabenigno.github.io/FinalAI/source.html)
 
-```bash
