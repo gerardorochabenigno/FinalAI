@@ -1,0 +1,12 @@
+openai:
+  api_key: "Tu clave de OpenAI"  
+
+app:
+  chroma_path: "chroma_data"
+  collection_name: "normatividad"
+
+aws:
+  access_key_id: "Tu clave de AWS"
+  secret_access_key: "Tu clave secreta de AWS"
+  region: "La region de trabajo"
+
