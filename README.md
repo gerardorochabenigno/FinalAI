@@ -59,27 +59,33 @@ Mediante una interfaz interactiva en Streamlit, el usuario puede cargar una imag
 
 ## Instalación
 
-- 1. Para ejecutar el proyecto, asegúrate de tener instaladas las dependencias necesarias. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
+- 1. Clona el repositorio en tu máquina local. Si usas HTTPS, ejecuta el siguiente comando en tu terminal:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/gerardorochabenigno/FinalAI.git
 ```
-- 2. Asegúrate de tener las credenciales de Amazon Textract y OpenAI configuradas en el archivo `config/config.yaml`. En la carpeta `config`, crea un archivo llamado `config_template.yaml` que te puede servir de base.
 
-- 3. Ejecuta los scripts `descargar_normatividad.py` y `base_normatividad_chroma.py` para descargar la normatividad de Banco de México y crear la base de datos de normatividad en ChromaDB. Puedes hacerlo ejecutando los siguientes comandos en tu terminal (esto tarda algunos minutos):
+- 2. Para ejecutar el proyecto, asegúrate de tener instaladas las dependencias necesarias. Una forma de lograrlo es clonando mi ambiente de conda. Asegurate de tener `conda` instalado y ejecuta el siguiente comando en tu terminal (asumiendo te encuentras en la raíz de mi proyecto):
+
+```bash
+conda env create -f environment.yaml
+```
+- 3. Asegúrate de tener las credenciales de Amazon Textract y OpenAI configuradas en el archivo `config/config.yaml`. En la carpeta `config`, crea un archivo llamado `config_template.yaml` que te puede servir de base.
+
+- 4. Ejecuta los scripts `descargar_normatividad.py` y `base_normatividad_chroma.py` para descargar la normatividad de Banco de México y crear la base de datos de normatividad en ChromaDB. Puedes hacerlo ejecutando los siguientes comandos en tu terminal (esto tarda algunos minutos):
 
 ```bash
 python3 descargar_normatividad.py
 python3 base_normatividad_chroma.py
 ```
 
-- 4. Inicia la aplicación de Streamlit:
+- 5. Inicia la aplicación de Streamlit:
 
 ```bash
 streamlit run app.py
 ```
 
-- 5. Listo! Ahora puedes cargar imágenes de solicitudes y recibir respuestas generadas automáticamente.
+- 6. Listo! Ahora puedes cargar imágenes de solicitudes y recibir respuestas generadas automáticamente.
 
 
 ## Documentación
