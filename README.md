@@ -44,7 +44,7 @@ Mediante una interfaz interactiva en Streamlit, el usuario puede cargar una imag
 │   └── config.yaml           # Credenciales y parámetros del sistema
 ├── docs/                     # Documentación generada con pdoc
 ├── ejemplos_ocr/             # Ejemplos de imágenes de solicitudes
-├── metadara/                 # Metadatos de normatividad
+├── metadata/                 # Metadatos de normatividad
 ├── normatividad_compilado/   # PDFs de normatividad de Banco de México
 ├── output/                   # Carpeta que almacena JSONs generados con OCR
 ├── source/
