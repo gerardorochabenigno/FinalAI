@@ -2,6 +2,11 @@
 
 # Procesador OCR de Solicitudes Normativas y Generador de Respuestas.
 
+## Video demostrativo
+
+Puedes ver el video demostrativo del proyecto en el siguiente enlace: [Video demostrativo](https://youtu.be/YdPm0J3_wF4?si=rOPMKzmxJIi_7crJ)
+
+
 ## Objetivo del Proyecto
 
 Desarrollar un asistente automatizado que recibe imágenes de solicitudes (fotos o screenshots), extrae su contenido con OCR, lo limpia y corrige, y genera una respuesta profesional basada en la normatividad del Banco de México utilizando técnicas de recuperación aumentada por generación (RAG).
