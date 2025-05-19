@@ -31,7 +31,7 @@ Mediante una interfaz interactiva en Streamlit, el usuario puede cargar una imag
 
 -  **Amazon Textract** como herramienta principal de OCR robusto (extrae texto, tablas y campos clave desde imágenes o PDFs)
 -  `ChromaDB` + `sentence-transformers` para recuperación semántica (RAG)
--  `OpenAI GPT-4` para generación de respuestas normativas en lenguaje natural
+-  `OpenAI GPT` para generación de respuestas normativas en lenguaje natural
 -  `pdfplumber` para extracción precisa de tablas desde documentos regulatorios
 -  **Exportación estructurada** en `JSON`, `CSV` y `PDF` para integración institucional
 -  **Interfaz interactiva** desarrollada en `Streamlit`
